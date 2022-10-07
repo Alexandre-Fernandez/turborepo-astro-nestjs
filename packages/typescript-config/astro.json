@@ -1,0 +1,9 @@
+{
+	"extends": "./base.json",
+	"display": "astro",
+	"compilerOptions": {
+		"allowJs": true,
+		"checkJs": true,
+		"resolveJsonModule": true
+	}
+}
