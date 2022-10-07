@@ -10,7 +10,8 @@
 		"preview": "astro preview",
 		"lint": "eslint",
 		"astro": "astro",
-		"sync": "npx tsconfig-multiple-extends ./tsconfig.base.json -xt ../../packages/typescript-config/astro.json -sv ./tsconfig.json"
+		"sync": "npx tsconfig-multiple-extends ./tsconfig.base.json -xt ../../packages/typescript-config/astro.json -sv ./tsconfig.json && npm run i18n",
+		"i18n": "npx astro-i18next generate && prettier --write \"src/pages/**/*.astro\""
 	},
 	"dependencies": {
 		"astro": "^1.4.5",
