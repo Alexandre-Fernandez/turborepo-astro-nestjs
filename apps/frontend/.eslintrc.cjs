@@ -15,4 +15,7 @@ module.exports = {
 			},
 		},
 	],
+	rules: {
+		"unicorn/text-encoding-identifier-case": "off",
+	},
 }
