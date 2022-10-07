@@ -87,7 +87,7 @@ importers:
       prettier: ^2.7.1
       prettier-config: workspace:*
       prettier-plugin-astro: ^0.5.5
-      tsconfig-multiple-extends: ^1.1.1
+      tsconfig-multiple-extends: ^1.1.2
       typescript-config: workspace:*
     dependencies:
       astro: 1.4.5
@@ -99,7 +99,7 @@ importers:
       prettier: 2.7.1
       prettier-config: link:../../packages/prettier-config
       prettier-plugin-astro: 0.5.5
-      tsconfig-multiple-extends: 1.1.1
+      tsconfig-multiple-extends: 1.1.2
       typescript-config: link:../../packages/typescript-config
 
   packages/eslint-config-custom:
@@ -6756,8 +6756,8 @@ packages:
       yn: 3.1.1
     dev: true
 
-  /tsconfig-multiple-extends/1.1.1:
-    resolution: {integrity: sha512-ean6f12Wt2WEdaugvY8BpXd0VyIl9CCausS+crUiOltMXMJHd5EmF1Mr/JFMpHTCbYet6ikkGQlRVN4GsUzTqQ==}
+  /tsconfig-multiple-extends/1.1.2:
+    resolution: {integrity: sha512-FIvoxtZPalOGB38LcQf7J60lozRtBofVdCHaW/X9sFjrGwSQFHIxPWjR4v24xC52A6XQg/8DQNLN8pDaxUG16A==}
     hasBin: true
     dev: true
 
