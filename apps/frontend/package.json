@@ -13,7 +13,12 @@
 		"sync": "npx tsconfig-multiple-extends ./tsconfig.base.json -xt ../../packages/typescript-config/astro.json -sv ./tsconfig.json"
 	},
 	"dependencies": {
-		"astro": "^1.4.5"
+		"astro": "^1.4.5",
+		"astro-i18next": "1.0.0-beta.12",
+		"i18next": "^21.10.0",
+		"i18next-fs-backend": "^1.1.5",
+		"install": "^0.13.0",
+		"npm": "^8.19.2"
 	},
 	"devDependencies": {
 		"astro-eslint-parser": "^0.7.1",
@@ -21,9 +26,9 @@
 		"eslint-config-custom": "workspace:*",
 		"eslint-plugin-astro": "^0.20.0",
 		"prettier": "^2.7.1",
+		"prettier-config": "workspace:*",
 		"prettier-plugin-astro": "^0.5.5",
-		"typescript-config": "workspace:*",
 		"tsconfig-multiple-extends": "^1.1.2",
-		"prettier-config": "workspace:*"
+		"typescript-config": "workspace:*"
 	}
 }
