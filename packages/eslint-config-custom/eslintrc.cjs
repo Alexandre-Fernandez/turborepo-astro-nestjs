@@ -45,5 +45,7 @@ module.exports = {
 		"no-console": "warn",
 		"unicorn/filename-case": "off",
 		"unicorn/prevent-abbreviations": "off",
+		"no-unused-vars": "off",
+		"@typescript-eslint/no-unused-vars": "error",
 	},
 }
