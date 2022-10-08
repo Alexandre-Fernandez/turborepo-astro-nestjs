@@ -87,7 +87,6 @@ importers:
       eslint-plugin-astro: ^0.20.0
       i18next: ^21.10.0
       i18next-fs-backend: ^1.1.5
-      install: ^0.13.0
       npm: ^8.19.2
       prettier: ^2.7.1
       prettier-config: workspace:*
@@ -99,7 +98,6 @@ importers:
       astro-i18next: 1.0.0-beta.12_astro@1.4.5
       i18next: 21.10.0
       i18next-fs-backend: 1.1.5
-      install: 0.13.0
       npm: 8.19.2
     devDependencies:
       astro-eslint-parser: 0.7.1
@@ -4215,11 +4213,6 @@ packages:
       through: 2.3.8
       wrap-ansi: 7.0.0
     dev: true
-
-  /install/0.13.0:
-    resolution: {integrity: sha512-zDml/jzr2PKU9I8J/xyZBQn8rPCAY//UOYNmR01XwNwyfhEWObo2SWfSl1+0tm1u6PhxLwDnfsT/6jB7OUxqFA==}
-    engines: {node: '>= 0.10'}
-    dev: false
 
   /internal-slot/1.0.3:
     resolution: {integrity: sha512-O0DB1JC/sPyZl7cIo78n5dR7eUSwwpYPiXRhTzNxZVAMUuB8vlnRFyLxdrVToks6XPLVnFfbzaVd5WLjhgg+vA==}

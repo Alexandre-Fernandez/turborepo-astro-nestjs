@@ -18,7 +18,6 @@
 		"astro-i18next": "1.0.0-beta.12",
 		"i18next": "^21.10.0",
 		"i18next-fs-backend": "^1.1.5",
-		"install": "^0.13.0",
 		"npm": "^8.19.2"
 	},
 	"devDependencies": {
